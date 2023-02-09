@@ -134,10 +134,10 @@ foreach($getUserInfo as $userInfo) {
                                 </div>
                              </li>';
                   }
-                        // echo '<li class="list-group-item d-flex justify-content-between lh-sm" style ="border-bottom:none;" id ="voucherTotalDiscount" hidden>
-                        //         <span>Voucher Discount</span><strong
-                        //             class="price" style ="color: red;">-&#8369; '.number_format(floatval($totalDiscount), 2, '.', '').'</strong> 
-                        //      </li>';
+                        echo '<li class="list-group-item d-flex justify-content-between lh-sm" style ="border-bottom:none;" id ="voucherTotalDiscount" hidden>
+                                <span>Voucher Discount</span><strong
+                                    class="price" style ="color: red;">-&#8369; '.number_format(floatval($totalDiscount), 2, '.', '').'</strong> 
+                             </li>';
                   
                   
                           echo '<li class="list-group-item d-flex justify-content-between lh-sm" style ="border-bottom:none;">
