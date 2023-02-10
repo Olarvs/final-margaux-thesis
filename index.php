@@ -306,6 +306,8 @@ figure {
     <div class="container">
         <h2 class="mb-3 text-center text-dark" style="font-weight: bold !important;">MARGAUX VARIETIES</h2>
     </div>
+
+<!-- CAROUSEL STARTS HERE -->
     <?php
 $getCategory = mysqli_query($conn, "SELECT * FROM tbl_category WHERE isDeleted = 0");
 
@@ -355,6 +357,7 @@ if(mysqli_num_rows($getCategory) > 0) {
     ?>
 </section>
 
+<!-- CATEGORY -->
 <?php
 $getCategory = mysqli_query($conn, "SELECT * FROM tbl_category WHERE isDeleted = 0");
 
