@@ -494,7 +494,7 @@ if(mysqli_num_rows($getCategory) > 0) {
 <!-- End Why Choose Us Section -->
 
 <div class="container my-5" id="feedbackSection">
-    <h2 class="mb-3 text-center" style="font-weight: bold !important; color: #fe827a; letter-spacing: .1rem;">FEEDBACK
+    <h2 class="mb-3 text-center" style="font-weight: bold !important; color: #fe827a; letter-spacing: .1rem;">FEEDBACKS
     </h2>
     <?php
         $getFeedback = mysqli_query($conn, "SELECT tbl_feedback.rate, tbl_user.`name`, tbl_feedback.`comment`, tbl_user.profile_image
