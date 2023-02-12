@@ -556,7 +556,7 @@ if(mysqli_num_rows($getCategory) > 0) {
     // if(mysqli_num_rows($getFeedback) > 3) {
      ?>
     <div class="row justify-content-center mt-3">
-        <button type="button" class="btn btn-primary text-center darkBtn" style="width: inherit; letter-spacing: .1rem" onclick="location.href='feedbacks.php'">VIEW MORE</button>
+        <button type="button" class="btn btn-primary text-center darkBtn" style="width: inherit; letter-spacing: .1rem" onclick="location.href='feedbacks.php'">VIEW MORE FEEDBACKS</button>
         
     </div>
     <?php
