@@ -396,7 +396,7 @@ if(mysqli_num_rows($getCategory) > 0) {
 
 <section id="products" class="product-section bg-dark t-0 ">
     <div class="container">
-        <h2 class="mb-4 text-center b-3" style="font-weight: bold !important; color: #fe827a; letter-spacing: .1rem">NEW PRODUCTS</h2>
+        <h2 class="mb-4 text-center b-3" style="font-weight: bold !important; color: #fe827a; letter-spacing: .1rem">NEW ADDED PRODUCTS</h2>
     </div>
     <div class="container">
 
