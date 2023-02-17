@@ -69,7 +69,7 @@ input::-webkit-inner-spin-button {
                     <p
                     <?php 
                     if($feedback['rate'] == 'Amazing'){
-                      echo "style='color: #fe827a'";
+                      echo "style='color: yello'";
                     }elseif($feedback['rate'] == 'Good'){
                       echo "style='color: green'";
                     }elseif($feedback['rate'] == 'Fair'){
